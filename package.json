@@ -1,0 +1,44 @@
+{
+	"name": "@wonize/tsconfig",
+	"version": "0.0.1",
+	"description": "TypeScript configuration for Wonize packages",
+	"license": "MIT",
+	"main": "base.json",
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"*.json"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wonize/tsconfig.git"
+	},
+	"author": {
+		"name": "wonize inc.",
+		"url": "https://github.com/wonize",
+		"githubUsername": "wonize"
+	},
+	"contributors": [
+		{
+			"name": "mikoloism",
+			"email": "mikoloism@gmail.com",
+			"url": "https://github.com/mikoloism",
+			"githubUsername": "mikoloism"
+		},
+		{
+			"name": "Alireza Babaei",
+			"email": "myalirezababaei@gmail.com",
+			"url": "https://github.com/venshar",
+			"githubUsername": "venshar"
+		}
+	],
+	"keywords": [
+		"wonize",
+		"tsconfig"
+	],
+	"scripts": {},
+	"peerDependencies": {
+		"typescript": ">=4"
+	}
+}

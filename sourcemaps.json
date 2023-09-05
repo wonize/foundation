@@ -1,0 +1,10 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"sourceMap": true,
+		"inlineSources": false,
+		"inlineSourceMap": false,
+		"declarationMap": true,
+		"declaration": true
+	}
+}

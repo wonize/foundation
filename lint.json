@@ -1,0 +1,31 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"checkJs": true,
+		"allowJs": false,
+		"strict": true,
+		"alwaysStrict": true,
+		"strictBindCallApply": true,
+		"strictPropertyInitialization": true,
+		"exactOptionalPropertyTypes": true,
+		"strictFunctionTypes": true,
+		"strictNullChecks": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitAny": true,
+		"useUnknownInCatchVariables": true,
+		"noUncheckedIndexedAccess": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noImplicitOverride": true,
+		"noImplicitUseStrict": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noFallthroughCasesInSwitch": false,
+		"allowUnusedLabels": false,
+		"allowUnreachableCode": false,
+		"useDefineForClassFields": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"suppressExcessPropertyErrors": false,
+		"verbatimModuleSyntax": true
+	}
+}
