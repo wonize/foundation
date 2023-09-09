@@ -1,4 +1,4 @@
-<p align="center">
+<div align="center">
 
 [![LOGO][LOGO]][HOMEPAGE]
 
@@ -7,7 +7,7 @@
 ![version][VERSION_BADGE]
 ![MIT License][LICENSE_BADGE]
 
-</p>
+</div>
 
 ## Installation
 
