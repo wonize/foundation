@@ -1,5 +1,6 @@
 {
 	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "SourceMaps",
 	"compilerOptions": {
 		"sourceMap": true,
 		"inlineSources": false,

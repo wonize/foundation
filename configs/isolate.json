@@ -1,8 +1,7 @@
 {
 	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Isolate",
 	"compilerOptions": {
-		"paths": {
-			"@/*": ["packages/*"]
-		}
+		"isolatedModules": true
 	}
 }
