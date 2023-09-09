@@ -1,8 +1,8 @@
 {
 	"$schema": "https://json.schemastore.org/tsconfig",
-	"extends": ["./base.json"],
+	"display": "ESM",
 	"compilerOptions": {
 		"target": "ES2015",
-		"module": "CommonJS"
+		"module": "ES6"
 	}
 }
