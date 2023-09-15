@@ -7,5 +7,6 @@
 		"importsNotUsedAsValues": "remove",
 		"moduleResolution": "Node"
 	},
-	"exclude": ["node_modules"]
+	"exclude": ["node_modules"],
+	"include": ["**/*.ts", "**/*.d.ts", "**/*.tsx", "**/*.vue"]
 }
