@@ -50,10 +50,10 @@ $ bun add --dev @wonize/tsconfig
 [INSTALLATION_PNPM_BADGE]: https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=FF6C37&logo=pnpm&logoColor=FFFFFF&label=
 [INSTALLATION_BUN_BADGE]: https://img.shields.io/static/v1?style=for-the-badge&message=bun&color=E2BD8C&logo=bun&logoColor=FFFFFF&label=
 [INSTALLATION_DENO_BADGE]: https://img.shields.io/static/v1?style=for-the-badge&message=deno&color=323232&logo=deno&logoColor=FFFFFF&label=
-[INSTALLATION_NPM]: #npm
-[INSTALLATION_YARN]: #yarn
-[INSTALLATION_PNPM]: #pnpm
-[INSTALLATION_BUN]: #bun
+[INSTALLATION_NPM]: #npm-
+[INSTALLATION_YARN]: #yarn-
+[INSTALLATION_PNPM]: #pnpm-
+[INSTALLATION_BUN]: #bun-
 [INSTALLATION_DENO]: https://deno.land/manual@v1.36.4/examples/manage_dependencies
 [VERSION_BADGE]: https://img.shields.io/npm/v/@wonize/tsconfig?color=00273F&label=VERSION&style=flat-square
 [LICENSE_BADGE]: https://img.shields.io/npm/l/@wonize/tsconfig?color=00273F&label=LICENSE&style=flat-square
