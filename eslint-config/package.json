@@ -1,0 +1,7 @@
+{
+	"name": "@wonize/eslint-config",
+	"version": "0.0.1",
+	"peerDependencies": {
+		"eslint": "^8.48.0"
+	}
+}
