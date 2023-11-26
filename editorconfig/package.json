@@ -1,0 +1,31 @@
+{
+	"name": "@wonize/editorconfig",
+	"version": "0.0.1",
+	"main": "./bin/main.mjs",
+	"exports": "./bin/main.mjs",
+	"type": "module",
+	"bin": {
+		"w-editorconfig": "./bin/main.mjs"
+	},
+	"files": [
+		"assets/",
+		"bin/",
+		".editorconfig",
+		"package.json",
+		"LICENSE",
+		"README.md"
+	],
+	"engines": {
+		"node": ">=16"
+	},
+	"repository": "git+https://github.com/wonize/configs.git",
+	"author": "wonize",
+	"license": "MIT",
+	"private": false,
+	"dependencies": {},
+	"devDependencies": {
+		"@types/inquirer": "^9.0.7",
+		"chalk": "^5.3.0",
+		"inquirer": "^9.2.12"
+	}
+}
