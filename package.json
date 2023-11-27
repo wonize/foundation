@@ -1,0 +1,25 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"private": true,
+	"engines": {
+		"node": "^18.16.0",
+		"npm": "^9.6.7",
+		"yarn": "^1.22.19"
+	},
+	"workspaces": {
+		"packages": [
+			"editorconfig",
+			"eslint-config",
+			"gitconfig",
+			"tsconfig"
+		]
+	},
+	"scripts": {
+		"deploy": "echo \"NO DEPLOY SCRIPTS\""
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"@wonize/editorconfig": "*"
+	}
+}
