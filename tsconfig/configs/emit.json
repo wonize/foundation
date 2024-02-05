@@ -1,12 +1,13 @@
 {
-	"$schema": "https://json.schemastore.org/tsconfig",
-	"display": "Emit",
-	"compilerOptions": {
-		"newLine": "lf",
-		"preserveConstEnums": false,
-		"importsNotUsedAsValues": "remove",
-		"moduleResolution": "Node"
-	},
-	"exclude": ["node_modules"],
-	"include": ["**/*.ts", "**/*.d.ts", "**/*.tsx", "**/*.vue"]
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Emit",
+  "compilerOptions": {
+    "newLine": "lf",
+    // TODO disabling below property make conflict with another properties, make it true not so bad
+    "preserveConstEnums": false,
+    "importsNotUsedAsValues": "remove",
+    "moduleResolution": "Node"
+  },
+  "exclude": ["node_modules"],
+  "include": ["**/*.ts", "**/*.d.ts", "**/*.tsx", "**/*.vue"]
 }
