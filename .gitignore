@@ -138,3 +138,4 @@ yarn.lock
 
 # Turborepo/Turbopack directories
 .turbo
+_tsconfig_
