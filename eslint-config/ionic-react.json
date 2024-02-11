@@ -1,0 +1,79 @@
+{
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "prettier",
+    "@ionic/eslint-config/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "parserOptions": {
+    "project": [
+      "./tsconfig.json",
+      "./tsconfig.node.json"
+    ]
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/prefer-readonly": "error",
+    "@typescript-eslint/no-explicit-any": [
+      "error",
+      {
+        "ignoreRestArgs": true
+      }
+    ],
+    "@typescript-eslint/consistent-generic-constructors": "error",
+    "@typescript-eslint/adjacent-overload-signatures": "warn",
+    "@typescript-eslint/unified-signatures": [
+      "warn",
+      {
+        "ignoreDifferentlyNamedParameters": true
+      }
+    ],
+    "@typescript-eslint/array-type": [
+      "error",
+      {
+        "default": "array-simple",
+        "readonly": "array-simple"
+      }
+    ],
+    "@typescript-eslint/consistent-type-imports": [
+      "error",
+      {
+        "prefer": "type-imports",
+        "fixStyle": "inline-type-imports"
+      }
+    ],
+    "import/newline-after-import": "error",
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "parent",
+          "sibling",
+          "index"
+        ],
+        "newlines-between": "never"
+      }
+    ]
+  },
+  "ignorePatterns": [
+    "node_modules",
+    "*.config.ts",
+    "*.test.ts",
+    "*.d.ts",
+    "setupTests.ts",
+    "cypress/**/*.*",
+    "tests/**/*.*",
+    "test/**/*.*",
+    "**/*.jsx",
+    "**/*.js"
+  ]
+}
