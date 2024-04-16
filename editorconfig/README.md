@@ -70,7 +70,7 @@ $ pnpm dlx w-editorconfig .
 
 <!-- URL -->
 
-[BANNER]: https://raw.githubusercontent.com/wonize/foundation/editorconfig/assets/editorconfig.png
+[BANNER]: https://raw.githubusercontent.com/wonize/foundation/main/editorconfig/assets/editorconfig.png
 [HOMEPAGE]: https://github.com/wonize/foundation/tree/main/editorconfig
 [INSTALLATION_NPM_BADGE]: https://img.shields.io/static/v1?style=for-the-badge&message=npm&color=CB3837&logo=npm&logoColor=FFFFFF&label=
 [INSTALLATION_YARN_BADGE]: https://img.shields.io/static/v1?style=for-the-badge&message=Yarn&color=2C8EBB&logo=Yarn&logoColor=FFFFFF&label=
