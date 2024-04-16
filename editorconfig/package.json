@@ -13,7 +13,6 @@
 		"w-editorconfig": "./bin/main.mjs"
 	},
 	"files": [
-		"assets/",
 		"bin/",
 		".editorconfig",
 		"LICENSE",
