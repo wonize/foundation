@@ -1,8 +1,9 @@
 {
 	"name": "@wonize/tsconfig",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "TypeScript configuration for Wonize packages",
 	"license": "MIT",
+	"type": "module",
 	"main": "base.json",
 	"publishConfig": {
 		"access": "public"
@@ -13,12 +14,15 @@
 		"README.md",
 		"package.json"
 	],
+	"engines": {
+		"node": ">=16"
+	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/wonize/tsconfig.git"
+		"url": "git+https://github.com/wonize/foundation.git"
 	},
 	"author": {
-		"name": "wonize inc.",
+		"name": "wonize group",
 		"url": "https://github.com/wonize",
 		"githubUsername": "wonize"
 	},
@@ -36,11 +40,15 @@
 			"githubUsername": "venshar"
 		}
 	],
+	"private": false,
 	"keywords": [
 		"wonize",
+		"foundation",
 		"tsconfig"
 	],
 	"scripts": {},
+	"dependencies": {},
+	"devDependencies": {},
 	"peerDependencies": {
 		"typescript": ">=4"
 	}
