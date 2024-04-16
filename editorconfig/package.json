@@ -1,6 +1,6 @@
 {
 	"name": "@wonize/editorconfig",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"main": "./bin/main.mjs",
 	"exports": "./bin/main.mjs",
 	"type": "module",
