@@ -1,9 +1,14 @@
 {
 	"name": "@wonize/editorconfig",
-	"version": "0.0.2",
-	"main": "./bin/main.mjs",
-	"exports": "./bin/main.mjs",
+	"version": "0.0.3",
+	"description": "Editorconfig configuration for Wonize packages",
+	"license": "GPL-3.0-only",
 	"type": "module",
+	"main": "./bin/main.mjs",
+	"publishConfig": {
+		"access": "public"
+	},
+	"exports": "./bin/main.mjs",
 	"bin": {
 		"w-editorconfig": "./bin/main.mjs"
 	},
@@ -11,21 +16,44 @@
 		"assets/",
 		"bin/",
 		".editorconfig",
-		"package.json",
 		"LICENSE",
-		"README.md"
+		"README.md",
+		"package.json"
 	],
 	"engines": {
 		"node": ">=16"
 	},
-	"repository": "git+https://github.com/wonize/foundation.git",
-	"author": "wonize",
-	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wonize/foundation.git"
+	},
+	"author": {
+		"name": "wonize group",
+		"url": "https://github.com/wonize",
+		"githubUsername": "wonize"
+	},
+	"contributors": [
+		{
+			"name": "mikoloism",
+			"email": "mikoloism@gmail.com",
+			"url": "https://github.com/mikoloism",
+			"githubUsername": "mikoloism"
+		}
+	],
 	"private": false,
+	"keywords": [
+		"wonize",
+		"foundation",
+		"tsconfig"
+	],
+	"scripts": {},
 	"dependencies": {},
 	"devDependencies": {
 		"@types/inquirer": "^9.0.7",
 		"chalk": "^5.3.0",
 		"inquirer": "^9.2.12"
+	},
+	"peerDependencies": {
+		"editorconfig": ">=2"
 	}
 }
