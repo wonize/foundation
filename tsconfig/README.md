@@ -1,6 +1,6 @@
 <div align="center">
 
-[![LOGO][LOGO]][HOMEPAGE]
+[![BANNER][BANNER]][HOMEPAGE]
 
 <br/>
 
@@ -43,8 +43,8 @@ $ bun add --dev @wonize/tsconfig
 
 <!-- URL -->
 
-[LOGO]: https://raw.githubusercontent.com/wonize/tsconfig/main/assets/logo.svg
-[HOMEPAGE]: https://github.com/wonize/tsconfig
+[BANNER]: https://raw.githubusercontent.com/wonize/foundation/main/tsconfig/assets/tsconfig.png
+[HOMEPAGE]: https://github.com/wonize/foundation/tree/main/tsconfig
 [INSTALLATION_NPM_BADGE]: https://img.shields.io/static/v1?style=for-the-badge&message=npm&color=CB3837&logo=npm&logoColor=FFFFFF&label=
 [INSTALLATION_YARN_BADGE]: https://img.shields.io/static/v1?style=for-the-badge&message=Yarn&color=2C8EBB&logo=Yarn&logoColor=FFFFFF&label=
 [INSTALLATION_PNPM_BADGE]: https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=FF6C37&logo=pnpm&logoColor=FFFFFF&label=
