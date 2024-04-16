@@ -18,7 +18,7 @@
 	"engines": {
 		"node": ">=16"
 	},
-	"repository": "git+https://github.com/wonize/configs.git",
+	"repository": "git+https://github.com/wonize/foundation.git",
 	"author": "wonize",
 	"license": "MIT",
 	"private": false,
