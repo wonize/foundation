@@ -1,5 +1,5 @@
-![Foundation Light Poster](./assets/foundation-light.png#gh-only-light-mode)
-![Foundation Dark  Poster](./assets/foundation-dark.png#gh-only-dark-mode)
+![Foundation Light Poster](./assets/foundation-light.png##gh-light-mode-only)
+![Foundation Dark  Poster](./assets/foundation-dark.png##gh-dark-mode-only)
 
 ---
 
