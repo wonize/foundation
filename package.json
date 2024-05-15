@@ -1,6 +1,10 @@
 {
 	"$schema": "https://json.schemastore.org/package",
+	"name": "@wonize/monorepo",
+	"type": "module",
+	"version": "0.0.0",
 	"private": true,
+	"packageManager": "pnpm@9.1.0",
 	"engines": {
 		"node": "^18.16.0",
 		"npm": "^9.6.7"
@@ -13,13 +17,15 @@
 			"tsconfig"
 		]
 	},
-	"scripts": {
-		"deploy": "echo \"NO DEPLOY SCRIPTS\""
-	},
-	"dependencies": {
-		"turbo": "^1.10.16"
-	},
+	"scripts": {},
 	"devDependencies": {
-		"@wonize/editorconfig": "*"
+		"@antfu/ni": "0.21.12",
+		"@types/node": "20.12.7",
+		"tasuku": "2.0.1",
+		"terser": "5.30.3",
+		"tsup": "8.0.2",
+		"tsx": "4.7.3",
+		"typescript": "5.4.5",
+		"zx": "8.0.2"
 	}
 }
