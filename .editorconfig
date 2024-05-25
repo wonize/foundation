@@ -14,10 +14,15 @@ max_line_length = 100
 curly_bracket_next_line = false
 spaces_around_operators = true
 
-# documentation, utils
-[**/*.{md,mdx,diff}, **/{*ignore,LICENSE,CODEOWNERS}]
+# markdown and docs
+[**/*.{md,mdx,diff}, **/*ignore, **/LICENSE*, **/CODEOWNERS*]
 # endline with two space parsed to newline
 trim_trailing_whitespace = false
+
+# markup languages
+[**/*.{html,htm,css,scss,less,sass}]
+indent_size = 2
+indent_style = space
 
 # javascript/typescript
 [**/*.{js,mjs,cjs,jsx,ts,mts,tsx}]
@@ -30,6 +35,12 @@ quote_type = single
 [**/{package.json,tsconfig*,*rc,*.astro}]
 indent_size = 4
 indent_style = tab
+# additional properties
+quote_type = double
+
+[**/{*.config*,.*}]
+indent_size = 2
+indent_style = space
 # additional properties
 quote_type = double
 
