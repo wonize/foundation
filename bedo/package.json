@@ -1,0 +1,55 @@
+{
+	"name": "bedo",
+	"version": "0.0.0",
+	"type": "module",
+	"packageManager": "pnpm@9.1.1",
+	"engines": {
+		"node": "20.11.1",
+		"pnpm": "9.1.1",
+		"npm": "10.4.0"
+	},
+	"files": [
+		"lib",
+		"bin",
+		"package.json"
+	],
+	"exports": {
+		".": {
+			"require": "./lib/mod.cjs",
+			"import": "./lib/mod.js",
+			"types": "./lib/mod.d.ts"
+		},
+		"./mod": {
+			"require": "./lib/mod.cjs",
+			"import": "./lib/mod.js",
+			"types": "./lib/mod.d.ts"
+		},
+		"./loop": {
+			"require": "./lib/loop.cjs",
+			"import": "./lib/loop.js",
+			"types": "./lib/loop.d.ts"
+		},
+		"./setup": {
+			"require": "./lib/setup.cjs",
+			"import": "./lib/setup.js",
+			"types": "./lib/setup.d.ts"
+		},
+		"./*": {
+			"require": "./lib/*",
+			"import": "./lib/*",
+			"types": "./lib/*"
+		}
+	},
+	"sideEffects": false,
+	"main": "lib/mod.cjs",
+	"module": "lib/mod.js",
+	"types": "lib/mod.d.ts",
+	"bin": {
+		"bedo": "./bin/bedo.cjs",
+		"bedox": "./bin/bedox.cjs"
+	},
+	"scripts": {
+		"tsup": "tsup",
+		"build": "tsup"
+	}
+}
