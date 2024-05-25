@@ -4,28 +4,38 @@
 	"type": "module",
 	"version": "0.0.0",
 	"private": true,
-	"packageManager": "pnpm@9.1.0",
+	"packageManager": "pnpm@9.1.1",
 	"engines": {
-		"node": "^18.16.0",
-		"npm": "^9.6.7"
+		"node": "20.11.1",
+		"pnpm": "9.1.1",
+		"npm": "10.4.0"
+	},
+	"volta": {
+		"node": "20.11.1",
+		"pnpm": "9.1.1"
 	},
 	"workspaces": {
 		"packages": [
 			"editorconfig",
-			"eslint-config",
 			"gitconfig",
-			"tsconfig"
+			"tsconfig",
+			"prettier",
+			"eslint",
+			"bedo"
 		]
 	},
-	"scripts": {},
+	"scripts": {
+		"tsx": "tsx"
+	},
 	"devDependencies": {
 		"@antfu/ni": "0.21.12",
-		"@types/node": "20.12.7",
+		"@types/node": "20.12.12",
 		"tasuku": "2.0.1",
-		"terser": "5.30.3",
+		"terser": "5.31.0",
 		"tsup": "8.0.2",
-		"tsx": "4.7.3",
+		"tsx": "4.11.0",
 		"typescript": "5.4.5",
-		"zx": "8.0.2"
+		"vite": "5.2.11",
+		"zx": "8.1.1"
 	}
 }

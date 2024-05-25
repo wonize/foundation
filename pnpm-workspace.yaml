@@ -1,6 +1,7 @@
 packages:
-  - 'editorconfig/*'
-  - 'gitconfig/*'
-  - 'tsconfig/*'
-  - 'prettier/*'
-  - 'eslint/*'
+  - "editorconfig"
+  - "gitconfig"
+  - "tsconfig"
+  - "prettier"
+  - "eslint"
+  - "bedo"
