@@ -1,0 +1,164 @@
+/** @typedef {Required<import("prettier/index.d.ts").Config>} RequiredConfig */
+/** @typedef {RequiredConfig['overrides']} Overrides */
+/** @typedef {Overrides[number]} Override */
+
+/**
+ * @exports
+ * @name javascript
+ * @type {Override}
+ */
+export const javascript = {
+  files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
+  options: {
+    parser: 'typescript',
+    tabWidth: 2,
+    useTabs: false,
+    singleQuote: false,
+  },
+};
+
+/**
+ * @exports
+ * @name configurations
+ * @type {Override}
+ */
+export const configurations = {
+  files: ['**/{package.json,tsconfig*,*rc,deno.json*}'],
+  options: {
+    tabWidth: 2,
+    useTabs: false,
+    singleQuote: false,
+  },
+};
+
+/**
+ * @exports
+ * @name markup
+ * @type {Override}
+ */
+export const markup = {
+  files: ['**/{*.astro,*.vue,*.html,*.css,*.scss}'],
+  options: {
+    tabWidth: 2,
+    useTabs: false,
+    singleQuote: false,
+  },
+};
+
+/**
+ * @exports
+ * @name github
+ * @type {Override}
+ */
+export const github = {
+  files: ['.github/**/*.*'],
+  options: {
+    tabWidth: 2,
+    useTabs: false,
+  },
+};
+
+/**
+ * @exports
+ * @name golang
+ * @type {Override}
+ */
+export const golang = {
+  files: ['*.go', 'go.mod'],
+  options: {
+    tabWidth: 4,
+    useTabs: true,
+  },
+};
+
+/**
+ * @exports
+ * @name python
+ * @type {Override}
+ */
+export const python = {
+  files: ['*.{ini,py,py.tpl,rst}'],
+  options: {
+    tabWidth: 4,
+  },
+};
+
+/**
+ * @exports
+ * @name rust
+ * @type {Override}
+ */
+export const rust = {
+  files: ['*.rs'],
+  options: {
+    tabWdith: 4,
+  },
+};
+
+/**
+ * @exports
+ * @name batch
+ * @type {Override}
+ */
+export const batch = {
+  files: ['*.{cmd,bat,ps1}'],
+  options: {
+    endOfLine: 'crlf',
+  },
+};
+
+/**
+ * @exports
+ * @name vscode
+ * @type {Override}
+ */
+export const vscode = {
+  files: ['**/.vscode/*.*'],
+  options: {
+    parser: 'jsonc',
+    tabWidth: 2,
+    useTabs: false,
+    endOfLine: 'crlf',
+    printWidth: 80,
+  },
+};
+
+/**
+ * @exports
+ * @name base
+ * @type {import("prettier").Config}
+ */
+export const base = {
+  arrowParens: 'always',
+  bracketSameLine: true,
+  bracketSpacing: true,
+  singleQuote: true,
+  quoteProps: 'as-needed',
+  jsxSingleQuote: false,
+  htmlWhitespaceSensitivity: 'css',
+  semi: true,
+  printWidth: 100,
+  trailingComma: 'es5',
+  tabWidth: 4,
+  useTabs: true,
+  endOfLine: 'lf',
+}
+
+/**
+ * @exports
+ * @default
+ * @type {import("prettier").Config}
+ */
+export default {
+  ...base,
+  overrides: []
+    .concat(javascript)
+    .concat(configurations)
+    .concat(markup)
+    .concat(github)
+    .concat(golang)
+    .concat(python)
+    .concat(rust)
+    .concat(batch)
+    .concat(vscode),
+};
