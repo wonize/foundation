@@ -75,6 +75,10 @@ class TemplateFactory {
         template.addFile('prettier.txt', 'prettier.config.mjs');
         template.addFile('prettierignore.txt', '.prettierignore');
         break;
+      case 'vscode':
+        template.addFile('vscodesettings.txt', '.vscode/settings.json');
+        template.addFile('vscodeextensions.txt', '.vscode/extensions.json');
+        break;
       case 'gitignore':
         template.addFile('gitignore.txt', '.gitignore');
         break;
@@ -164,6 +168,30 @@ class FileManager {
   async createFile(source, target) {
     return await this.strategy.createFile(source, target, this);
   }
+}
+
+class Dependency {
+  static list = [
+    `npm init -y`,
+    `alias pnpmadd='pnpm add --save-exact --save-peer --strict-peer-deps --verbose'`,
+    `pnpmadd --save-dev typescript`,
+    `pnpmadd --save-dev @types/node`,
+    `pnpmadd --save-dev vitest`,
+    `pnpmadd --save-dev tsup`,
+    `pnpmadd --save-dev tsx`,
+    `pnpmadd --save-dev terser`,
+    `pnpmadd --save-dev tasuku`,
+    `pnpmadd --save-dev lint-staged`,
+    `pnpmadd --save-dev jsdom`,
+    `pnpmadd --save-dev husky`,
+    `pnpmadd --save-dev @vitest/ui`,
+    `pnpmadd --save-dev @vitest/coverage-v8`,
+    `pnpmadd --save-dev @vitest/browser`,
+    `pnpmadd --save-dev @testing-library/jest-dom`,
+    `pnpmadd --save-dev @testing-library/dom`,
+    `pnpmadd --save-dev @changesets/cli`,
+    `pnpmadd --save-dev @antfu/ni`
+  ]
 }
 
 // CLI - Manages the command-line interface
